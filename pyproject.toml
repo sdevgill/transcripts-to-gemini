@@ -1,0 +1,16 @@
+[project]
+name = "transcripts-to-gemini"
+version = "0.1.0"
+description = "Script to process transcripts into batches and send to Gemini for analysis"
+authors = [
+    {name = "Dev Gill",email = "26435947+sdevgill@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
